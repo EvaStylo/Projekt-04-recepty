@@ -87,19 +87,46 @@ body {
     align-self: flex-start;
 }
 
+/* umístění textu uvnitř rámečku */
+
+.hlavni-recept,
+.recept {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.recept-meta {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* stylováni textu uvnitř fotočtverečku */
+
 .recept-nazev {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
     font-weight: 800;
+    color: white;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.recept-meta {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+.hlavni-recept .recept-nazev {
     font-size: 28px;
-    padding-left: 10px;
-    /*padding-bottom: 10px;*/
-    flex-basis: 100vw;
-    text-align: left;
-    vertical-align: bottom;
-    
-    
-        
- }
+}
+
+.recept .recept-nazev {
+    font-size: 18px;
+}
+
+
 
 
 /*.hlavni-recept {
