@@ -88,6 +88,48 @@ body {
 }
 
 /* umístění textu uvnitř rámečku */
+<<<<<<< HEAD
+=======
+
+.hlavni-recept,
+.recept {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.recept-meta {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* stylováni textu uvnitř fotočtverečku */
+
+.recept-nazev {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    font-weight: 800;
+    color: white;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.recept-meta {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+.hlavni-recept .recept-nazev {
+    font-size: 28px;
+}
+
+.recept .recept-nazev {
+    font-size: 18px;
+}
+
+
+>>>>>>> d45833101a1608d6c66be420eba39a29e648802c
 
 .hlavni-recept,
 .recept {
@@ -172,6 +214,7 @@ body {
     background-position: center center;
     background-size: cover;
     border-top: 1px solid whitesmoke;
+<<<<<<< HEAD
     padding: 10px;
 }
 
@@ -275,3 +318,6 @@ body {
 
 
     }
+=======
+}
+>>>>>>> d45833101a1608d6c66be420eba39a29e648802c
